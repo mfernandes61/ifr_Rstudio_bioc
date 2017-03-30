@@ -42,7 +42,8 @@ USER root
 # RUN add2R.sh
 
 RUN wget https://download1.rstudio.org/rstudio-1.0.136-amd64.deb
-RUN gdebi -n rstudio-1.0.136-amd64.deb && rm rstudio-1.0.136-amd64.deb
+RUN gdebi -n rstudio-1.0.136-amd64.deb 
+RUN rm rstudio-1.0.136-amd64.deb
 
 EXPOSE 22 8888
 VOLUME /Coursedata
