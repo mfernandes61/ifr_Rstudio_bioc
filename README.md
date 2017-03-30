@@ -1,2 +1,2 @@
 # ifr_Rstudio_bioc
-RStudio with support for bioconductor tools
+LXDE RStudio with support for bioconductor tools
